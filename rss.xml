@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asher Falcon's Blog</title>
+    <description>Where I write about my projects and thoughts</description>
+    <link>https://asherfalcon.com/blog</link>
+    <atom:link href="https://asherfalcon.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Aug 2025 10:18:57 GMT</lastBuildDate>
+    <generator>javascript</generator>
+    
+    <item>
+      <title><![CDATA[game of life with braille]]></title>
+      <description><![CDATA[Using braille characters, we can render conways game of life in the terminal. This post goes through how we can use the 2x4 braille characters to display our map in C++.]]></description>
+      <link>https://asherfalcon.com/blog/posts/4</link>
+      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/4</guid>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[hiding messages in playing cards]]></title>
+      <description><![CDATA[I was recently thinking about the huge number of ways you can shuffle a deck of 52 cards and wondered if it would be possible to store arbitrary data, which I explore in this blog post.]]></description>
+      <link>https://asherfalcon.com/blog/posts/3</link>
+      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/3</guid>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[dnsimg - storing images in txt records]]></title>
+      <description><![CDATA[I was intrigued by the idea of storing images in DNS records, and I wanted to test out how effectively images could be stored in DNS records. I've always been interested in TXT records because they seem to be a useful way of storing arbitrary data, and in this blog post I'll discuss how I went from an idea to developing the project into almost a protocol sort of method for storing an image on a domain name.]]></description>
+      <link>https://asherfalcon.com/blog/posts/2</link>
+      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/2</guid>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[docker deployment]]></title>
+      <description><![CDATA[Recently I found myself wanting to deploy a docker-compose file to a server. I wanted to automate this process as much as possible, so I decided to write a shell script to do it. This post will go through the process of writing a shell script to deploy a docker-compose file to a server.]]></description>
+      <link>https://asherfalcon.com/blog/posts/1</link>
+      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/1</guid>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[curl asherfalcon.com]]></title>
+      <description><![CDATA[Hello, I thought I'd use this post as a test to see if this blog works and a quick welcome to this site. This is my personal space for sharing projects, notes, ideas and everything inbetween. I like to play around with lots of different technologies and I'm interested in all aspects of software, from developing it, to managing CI pipelines and deploying it with technologies like docker. Feel free to contact me if you have any questions or ideas, I'd love to hear from you.]]></description>
+      <link>https://asherfalcon.com/blog/posts/0</link>
+      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/0</guid>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
