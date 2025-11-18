@@ -6,9 +6,16 @@
     <link>https://asherfalcon.com/blog</link>
     <atom:link href="https://asherfalcon.com/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Aug 2025 10:18:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 06:53:33 GMT</lastBuildDate>
     <generator>javascript</generator>
     
+    <item>
+      <title><![CDATA[live public transport routing]]></title>
+      <description><![CDATA[We've all used a public transit router to find a quick route from A to B, such as Google Maps or CityMapper, but how do they actually work? In this post I will discuss how I tried to build my own public transport routing system for London that supports buses, tubes and trains.]]></description>
+      <link>https://asherfalcon.com/blog/posts/5</link>
+      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/5</guid>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title><![CDATA[game of life with braille]]></title>
       <description><![CDATA[Using braille characters, we can render conways game of life in the terminal. This post goes through how we can use the 2x4 braille characters to display our map in C++.]]></description>
