@@ -1,55 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Asher Falcon's Blog</title>
-    <description>Where I write about my projects and thoughts</description>
-    <link>https://asherfalcon.com/blog</link>
-    <atom:link href="https://asherfalcon.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 18 Nov 2025 06:53:33 GMT</lastBuildDate>
-    <generator>javascript</generator>
+    <title>Asher Falcon's blog</title>
+    <link>https://ashfn.com</link>
+    <description>Software engineering, projects, and more</description>
+    <language>en</language>
+    <atom:link href="https://ashfn.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
-      <title><![CDATA[live public transport routing]]></title>
-      <description><![CDATA[We've all used a public transit router to find a quick route from A to B, such as Google Maps or CityMapper, but how do they actually work? In this post I will discuss how I tried to build my own public transport routing system for London that supports buses, tubes and trains.]]></description>
-      <link>https://asherfalcon.com/blog/posts/5</link>
-      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/5</guid>
+      <title>Hosting a Tor mirror on a Raspberry Pi</title>
+      <link>https://ashfn.com/blog/6</link>
+      <description>How I set up a Tor hidden service on a Raspberry Pi to mirror this site, including vanity address generation and Nginx configuration.</description>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <guid>https://ashfn.com/blog/6</guid>
+    </item>
+    <item>
+      <title>Live public transport routing</title>
+      <link>https://ashfn.com/blog/5</link>
+      <description>We&apos;ve all used a public transit router to find a quick route from A to B, such as Google Maps or CityMapper, but how do they actually work?</description>
       <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
+      <guid>https://ashfn.com/blog/5</guid>
     </item>
     <item>
-      <title><![CDATA[game of life with braille]]></title>
-      <description><![CDATA[Using braille characters, we can render conways game of life in the terminal. This post goes through how we can use the 2x4 braille characters to display our map in C++.]]></description>
-      <link>https://asherfalcon.com/blog/posts/4</link>
-      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/4</guid>
+      <title>Game of Life with Braille</title>
+      <link>https://ashfn.com/blog/4</link>
+      <description>Using braille characters, we can render Conway&apos;s Game of Life in the terminal.</description>
       <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+      <guid>https://ashfn.com/blog/4</guid>
     </item>
     <item>
-      <title><![CDATA[hiding messages in playing cards]]></title>
-      <description><![CDATA[I was recently thinking about the huge number of ways you can shuffle a deck of 52 cards and wondered if it would be possible to store arbitrary data, which I explore in this blog post.]]></description>
-      <link>https://asherfalcon.com/blog/posts/3</link>
-      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/3</guid>
+      <title>Hiding messages in playing cards</title>
+      <link>https://ashfn.com/blog/3</link>
+      <description>I was recently thinking about the huge number of ways you can shuffle a deck of 52 cards and wondered if it would be possible to store arbitrary data.</description>
       <pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
+      <guid>https://ashfn.com/blog/3</guid>
     </item>
     <item>
-      <title><![CDATA[dnsimg - storing images in txt records]]></title>
-      <description><![CDATA[I was intrigued by the idea of storing images in DNS records, and I wanted to test out how effectively images could be stored in DNS records. I've always been interested in TXT records because they seem to be a useful way of storing arbitrary data, and in this blog post I'll discuss how I went from an idea to developing the project into almost a protocol sort of method for storing an image on a domain name.]]></description>
-      <link>https://asherfalcon.com/blog/posts/2</link>
-      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/2</guid>
+      <title>Storing images in DNS TXT records</title>
+      <link>https://ashfn.com/blog/2</link>
+      <description>I was intrigued by the idea of storing images in DNS records.</description>
       <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+      <guid>https://ashfn.com/blog/2</guid>
     </item>
     <item>
-      <title><![CDATA[docker deployment]]></title>
-      <description><![CDATA[Recently I found myself wanting to deploy a docker-compose file to a server. I wanted to automate this process as much as possible, so I decided to write a shell script to do it. This post will go through the process of writing a shell script to deploy a docker-compose file to a server.]]></description>
-      <link>https://asherfalcon.com/blog/posts/1</link>
-      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/1</guid>
+      <title>Docker deployment</title>
+      <link>https://ashfn.com/blog/1</link>
+      <description>Recently I found myself wanting to deploy a docker-compose file to a server. I wanted to automate this process as much as possible.</description>
       <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
+      <guid>https://ashfn.com/blog/1</guid>
     </item>
     <item>
-      <title><![CDATA[curl asherfalcon.com]]></title>
-      <description><![CDATA[Hello, I thought I'd use this post as a test to see if this blog works and a quick welcome to this site. This is my personal space for sharing projects, notes, ideas and everything inbetween. I like to play around with lots of different technologies and I'm interested in all aspects of software, from developing it, to managing CI pipelines and deploying it with technologies like docker. Feel free to contact me if you have any questions or ideas, I'd love to hear from you.]]></description>
-      <link>https://asherfalcon.com/blog/posts/0</link>
-      <guid isPermaLink="true">https://asherfalcon.com/blog/posts/0</guid>
+      <title>Hello</title>
+      <link>https://ashfn.com/blog/0</link>
+      <description>A quick welcome to this site and a test to see if the blog works.</description>
       <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+      <guid>https://ashfn.com/blog/0</guid>
     </item>
   </channel>
 </rss>
