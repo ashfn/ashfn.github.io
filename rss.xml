@@ -9,52 +9,52 @@
     
     <item>
       <title>Hosting a Tor mirror on a Raspberry Pi</title>
-      <link>https://ashfn.com/blog/6</link>
+      <link>https://ashfn.com/blog/posts/6</link>
       <description>How I set up a Tor hidden service on a Raspberry Pi to mirror this site, including vanity address generation and Nginx configuration.</description>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://ashfn.com/blog/6</guid>
+      <guid>https://ashfn.com/blog/posts/6</guid>
     </item>
     <item>
       <title>Live public transport routing</title>
-      <link>https://ashfn.com/blog/5</link>
+      <link>https://ashfn.com/blog/posts/5</link>
       <description>We&apos;ve all used a public transit router to find a quick route from A to B, such as Google Maps or CityMapper, but how do they actually work?</description>
       <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://ashfn.com/blog/5</guid>
+      <guid>https://ashfn.com/blog/posts/5</guid>
     </item>
     <item>
       <title>Game of Life with Braille</title>
-      <link>https://ashfn.com/blog/4</link>
+      <link>https://ashfn.com/blog/posts/4</link>
       <description>Using braille characters, we can render Conway&apos;s Game of Life in the terminal.</description>
       <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-      <guid>https://ashfn.com/blog/4</guid>
+      <guid>https://ashfn.com/blog/posts/4</guid>
     </item>
     <item>
       <title>Hiding messages in playing cards</title>
-      <link>https://ashfn.com/blog/3</link>
+      <link>https://ashfn.com/blog/posts/3</link>
       <description>I was recently thinking about the huge number of ways you can shuffle a deck of 52 cards and wondered if it would be possible to store arbitrary data.</description>
       <pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
-      <guid>https://ashfn.com/blog/3</guid>
+      <guid>https://ashfn.com/blog/posts/3</guid>
     </item>
     <item>
       <title>Storing images in DNS TXT records</title>
-      <link>https://ashfn.com/blog/2</link>
+      <link>https://ashfn.com/blog/posts/2</link>
       <description>I was intrigued by the idea of storing images in DNS records.</description>
       <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
-      <guid>https://ashfn.com/blog/2</guid>
+      <guid>https://ashfn.com/blog/posts/2</guid>
     </item>
     <item>
       <title>Docker deployment</title>
-      <link>https://ashfn.com/blog/1</link>
+      <link>https://ashfn.com/blog/posts/1</link>
       <description>Recently I found myself wanting to deploy a docker-compose file to a server. I wanted to automate this process as much as possible.</description>
       <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
-      <guid>https://ashfn.com/blog/1</guid>
+      <guid>https://ashfn.com/blog/posts/1</guid>
     </item>
     <item>
       <title>Hello</title>
-      <link>https://ashfn.com/blog/0</link>
+      <link>https://ashfn.com/blog/posts/0</link>
       <description>A quick welcome to this site and a test to see if the blog works.</description>
       <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
-      <guid>https://ashfn.com/blog/0</guid>
+      <guid>https://ashfn.com/blog/posts/0</guid>
     </item>
   </channel>
 </rss>
