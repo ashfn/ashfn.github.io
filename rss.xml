@@ -8,13 +8,6 @@
     <atom:link href="https://ashfn.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
-      <title>Hosting a Tor mirror on a Raspberry Pi</title>
-      <link>https://ashfn.com/blog/posts/6</link>
-      <description>How I set up a Tor hidden service on a Raspberry Pi to mirror this site, including vanity address generation and Nginx configuration.</description>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://ashfn.com/blog/posts/6</guid>
-    </item>
-    <item>
       <title>Live public transport routing</title>
       <link>https://ashfn.com/blog/posts/5</link>
       <description>We&apos;ve all used a public transit router to find a quick route from A to B, such as Google Maps or CityMapper, but how do they actually work?</description>
