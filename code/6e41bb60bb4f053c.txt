@@ -1,0 +1,63 @@
+#!/bin/bash
+
+# A script to redeploy this docker infrastructure using ssh
+
+if [ -f .env ]; then
+    source .env
+else
+    echo ".env file not found. Please create it and set the necessary environment variables."
+    exit 1
+fi
+
+check_gum() {
+    if command -v gum &> /dev/null; then
+        return 0
+    else
+        echo "Gum not found, installing..."
+        return 1
+    fi
+}
+
+install_gum() {
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        brew install gum
+    elif [[ -f /etc/os-release ]]; then
+        source /etc/os-release
+        if [[ $ID == "ubuntu" ]] || [[ $ID == "debian" ]]; then
+            sudo apt update
+            sudo apt install -y gum
+        elif [[ $ID == "fedora" ]] || [[ $ID == "centos" ]] || [[ $ID == "rhel" ]]; then
+            sudo dnf install -y gum
+        else
+            echo "Unsupported Linux distribution. Please install Gum manually."
+            exit 1
+        fi
+    else
+        echo "Unsupported operating system. Please install Gum manually."
+        exit 1
+    fi
+}
+
+# Main script execution
+if ! check_gum; then
+    if ! install_gum; then
+        echo "Failed to install Gum. Please install it manually and run the script again."
+        exit 1
+    fi
+fi
+
+message=$(gum input --placeholder "Commit message")
+
+git add .
+git commit -m "${message}"
+git push
+
+ssh -o "StrictHostKeyChecking=no" -i ssh.key $CD_USER@$CD_HOST << EOF
+sudo su
+cd $CD_PATH
+docker compose down
+git pull
+docker compose up -d
+exit
+EOF

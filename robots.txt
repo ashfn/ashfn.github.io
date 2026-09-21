@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://ashfn.com
+Sitemap: https://ashfn.com/sitemap.xml

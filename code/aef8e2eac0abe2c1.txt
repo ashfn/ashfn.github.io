@@ -1,0 +1,13 @@
+#!/bin/bash
+git add .
+git commit -m "updated docker-compose.yml"
+git push
+
+ssh -o "StrictHostKeyChecking=no" -i ssh.key $CD_USER@$CD_HOST << EOF
+sudo su
+cd $CD_PATH
+docker compose down
+git pull
+docker compose up -d
+exit
+EOF

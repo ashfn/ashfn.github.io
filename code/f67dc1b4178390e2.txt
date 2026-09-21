@@ -1,0 +1,6 @@
+char utf8[4] = {0};
+uint16_t codepoint = 0x2800 + sum;
+utf8[0] = 0xE2;
+utf8[1] = 0x80 | ((codepoint >> 6) & 0x3F);
+utf8[2] = 0x80 | (codepoint & 0x3F);
+std::cout << utf8;

@@ -1,0 +1,27 @@
+def convertToPermutation(number: int, permutationElements: int) -> [int]:
+    global factorials
+    if(number >= factorials[permutationElements]):
+        raise ValueError("Given number is outside of permutation range")
+    factoradic = convertToFactoradic(number)
+    while len(factoradic) < permutationElements:
+        factoradic.insert(0,0)
+    available = list(range(permutationElements))
+    permutation = []
+    for i in factoradic:
+        permutation.append(available[i])
+        available.pop(i)
+    return permutation
+
+def textToPackOfCards(text: str) -> [int]:
+    global alphabet
+    if(len(text) > 45):
+        raise ValueError("Text must be <=45 characters to be represented in one deck of cards")
+    for i in text.lower():
+        if not i in alphabet:
+            raise ValueError("Text must only be characters A-Z or '., -\"/' in order to use 5bit")
+    data = 0
+    for i in text.lower():
+        data<<=5
+        data|=alphabet.index(i)
+    data <<= (5*(45-len(text)))
+    return convertToPermutation(data, 52)
